@@ -1,12 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <!-- Load Babel -->
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <!-- React and ReactDom Library -->
+    <script
+      crossorigin
+      src="https://unpkg.com/react@18/umd/react.development.js"
+    ></script>
+    <script
+      crossorigin
+      src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
+    ></script>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>React Practice using CDN</title>
-</head>
-<body>
-    <h1>Hello, Everone</h1>
-</body>
+  </head>
+  <body>
+    <!-- This div will serve as main container. -->
+    <div id="root"></div>
+    <!-- "type="text/babel"" -> Adding this attriburte is imp to let browser know that, we are gonna use jsx in js file. -->
+    <script src="./index.js" type="text/babel"></script>
+  </body>
 </html>
